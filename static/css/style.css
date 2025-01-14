@@ -53,6 +53,9 @@ body {
   color: #00bbf0;
 }
 
+.input_data_section{
+  background-color: white;
+}
 .heading_container p {
   margin-top: 10px;
   margin-bottom: 0;

@@ -48,89 +48,163 @@
   <!-- Form Section -->
   <section class="input_data_section layout_padding">
     <div class="container">
-      <h4 class="text-center">Input Data Perhitungan</h4>
-      <form method="POST" action="{{ url_for('service') }}">
-        <div class="row">
-          <div class="col-md-6">
-            <label for="jumlah_siswa">Jumlah Siswa:</label>
-            <input type="number" id="jumlah_siswa" name="jumlah_siswa" class="form-control" required>
-          </div>
-          <div class="col-md-6">
-            <label for="dana_diterima">Dana Diterima:</label>
-            <input type="number" id="dana_diterima" name="dana_diterima" class="form-control" step="0.01" required>
-          </div>
-          <div class="col-md-6 mt-3">
-            <label for="biaya_operasional">Biaya Operasional:</label>
-            <input type="number" id="biaya_operasional" name="biaya_operasional" class="form-control" step="0.01" required>
-          </div>
-          <div class="col-md-6 mt-3">
-            <label for="gaji_honor">Gaji & Honor:</label>
-            <input type="number" id="gaji_honor" name="gaji_honor" class="form-control" step="0.01" required>
-          </div>
-          <div class="col-md-6 mt-3">
-            <label for="alat_pembelajaran">Alat Pembelajaran:</label>
-            <input type="number" id="alat_pembelajaran" name="alat_pembelajaran" class="form-control" step="0.01" required>
-          </div>
-          <div class="col-md-6 mt-3">
-            <label for="perawatan">Perawatan:</label>
-            <input type="number" id="perawatan" name="perawatan" class="form-control" step="0.01" required>
-          </div>
-          <div class="col-md-6 mt-3">
-            <label for="pengembangan">Pengembangan:</label>
-            <input type="number" id="pengembangan" name="pengembangan" class="form-control" step="0.01" required>
-          </div>
-        </div>
-        <div class="text-center mt-4">
-          <button type="submit" class="btn btn-primary">Hitung</button>
-        </div>
-      </form>
+        <h4 class="text-center mb-4">Input Data Perhitungan</h4>
+        <form method="POST" action="{{ url_for('service') }}">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="jumlah_siswa">Jumlah Siswa:</label>
+                    <input type="number" id="jumlah_siswa" name="jumlah_siswa" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="dana_diterima">Dana Diterima:</label>
+                    <input type="number" id="dana_diterima" name="dana_diterima" class="form-control" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="biaya_operasional">Biaya Operasional:</label>
+                    <input type="number" id="biaya_operasional" name="biaya_operasional" class="form-control" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="gaji_honor">Gaji & Honor:</label>
+                    <input type="number" id="gaji_honor" name="gaji_honor" class="form-control" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="alat_pembelajaran">Alat Pembelajaran:</label>
+                    <input type="number" id="alat_pembelajaran" name="alat_pembelajaran" class="form-control" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="perawatan">Perawatan:</label>
+                    <input type="number" id="perawatan" name="perawatan" class="form-control" required>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="pengembangan">Pengembangan:</label>
+                    <input type="number" id="pengembangan" name="pengembangan" class="form-control" required>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">Analisis Data</button>
+            </div>
+        </form>
     </div>
   </section>
 
-  <!-- Result Section -->
+<!-- Analysis Results Section -->
   {% if result %}
-  <section class="result_section layout_padding">
+  <section class="analysis_section layout_padding">
     <div class="container">
-      <h4 class="text-center">Hasil Analisis</h4>
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <div class="card">
-            <div class="card-body">
-              <h5>Data yang Dimasukkan</h5>
-              <table class="table">
-                <tr><th>Jumlah Siswa</th><td>{{ result.jumlah_siswa }}</td></tr>
-                <tr><th>Dana Diterima</th><td>Rp{{ result.dana_diterima }}</td></tr>
-                <tr><th>Biaya Operasional</th><td>Rp{{ result.biaya_operasional }}</td></tr>
-                <tr><th>Gaji & Honor</th><td>Rp{{ result.gaji_honor }}</td></tr>
-                <tr><th>Alat Pembelajaran</th><td>Rp{{ result.alat_pembelajaran }}</td></tr>
-                <tr><th>Perawatan</th><td>Rp{{ result.perawatan }}</td></tr>
-                <tr><th>Pengembangan</th><td>Rp{{ result.pengembangan }}</td></tr>
-              </table>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Hasil Analisis Dana BOS</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Input Data Summary -->
+                        <h6 class="card-subtitle mb-3">Data yang Dimasukkan:</h6>
+                        <div class="table-responsive mb-4">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <th width="30%">Jumlah Siswa</th>
+                                        <td>{{ result.jumlah_siswa }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dana Diterima</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.dana_diterima) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Biaya Operasional</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.biaya_operasional) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Gaji & Honor</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.gaji_honor) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alat Pembelajaran</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.alat_pembelajaran) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Perawatan</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.perawatan) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pengembangan</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.pengembangan) }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-              <h5>Hasil Perhitungan</h5>
-              <table class="table">
-                <tr><th>Sisa Dana</th><td>Rp{{ result.sisa_dana }}</td></tr>
-                <tr><th>Efisiensi</th><td>{{ result.efisiensi }}%</td></tr>
-                <tr><th>Persentase Pengeluaran</th>
-                  <td>
-                    <ul>
-                      <li>Biaya Operasional: {{ result.analisis.persentase_operasional }}%</li>
-                      <li>Gaji & Honor: {{ result.analisis.persentase_gaji }}%</li>
-                      <li>Alat Pembelajaran: {{ result.analisis.persentase_pembelajaran }}%</li>
-                      <li>Perawatan: {{ result.analisis.persentase_perawatan }}%</li>
-                      <li>Pengembangan: {{ result.analisis.persentase_pengembangan }}%</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-              <p class="mt-3">Analisis ini bertujuan untuk mengukur efisiensi penggunaan dana berdasarkan persentase pengeluaran di setiap kategori.</p>
+                        <!-- Financial Analysis -->
+                        <h6 class="card-subtitle mb-3">Analisis Keuangan:</h6>
+                        <div class="table-responsive mb-4">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <th width="30%">Sisa Dana</th>
+                                        <td>Rp {{ "{:,.2f}".format(result.sisa_dana) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tingkat Efisiensi</th>
+                                        <td>{{ "{:.2f}".format(result.efisiensi) }}%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Prediksi MLP</th>
+                                        <td>{{ "{:.4f}".format(result.mlp_prediction) }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Percentage Analysis -->
+                        <h6 class="card-subtitle mb-3">Persentase Pengeluaran:</h6>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <th width="30%">Biaya Operasional</th>
+                                        <td>{{ "{:.2f}".format(result.analisis.persentase_operasional) }}%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Gaji & Honor</th>
+                                        <td>{{ "{:.2f}".format(result.analisis.persentase_gaji) }}%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alat Pembelajaran</th>
+                                        <td>{{ "{:.2f}".format(result.analisis.persentase_pembelajaran) }}%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Perawatan</th>
+                                        <td>{{ "{:.2f}".format(result.analisis.persentase_perawatan) }}%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pengembangan</th>
+                                        <td>{{ "{:.2f}".format(result.analisis.persentase_pengembangan) }}%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Analysis Notes -->
+                        <div class="mt-4">
+                            <div class="alert alert-info">
+                                <h6 class="alert-heading">Catatan Analisis:</h6>
+                                <p class="mb-0">
+                                    - Tingkat efisiensi menunjukkan persentase penggunaan dana dari total dana yang diterima<br>
+                                    - Prediksi MLP memberikan nilai evaluasi berdasarkan pola penggunaan dana<br>
+                                    - Persentase pengeluaran menunjukkan proporsi masing-masing kategori dari total pengeluaran
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
   </section>
   {% endif %}
+  {% include 'footer.html' %}
+
 </body>
 
 </html>
