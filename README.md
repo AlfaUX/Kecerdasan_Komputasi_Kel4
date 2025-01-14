@@ -20,7 +20,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.9-blue)
 
-### 🔧 Mengatasi Error Saat Menjalankan Program
+### 🔧 Mengatasi Error Saat Menjalankan Program (module Python pkg_resources not found)
 
 #### 1. Pastikan setuptools Terinstal
 Setuptools diperlukan untuk mengelola instalasi paket Python. Pastikan setuptools terinstal atau diperbarui dengan menjalankan perintah berikut:
