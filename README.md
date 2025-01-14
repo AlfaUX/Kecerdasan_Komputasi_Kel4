@@ -1,4 +1,4 @@
-## <span style="color:blue;"> 🌟 Panduan Menjalankan Program </span>
+## <span style="color:blue;">🌟 Panduan Menjalankan Program</span>
 
 ### 🚀 Persiapan Awal
 1. **Install semua dependensi** dengan menjalankan perintah berikut:
