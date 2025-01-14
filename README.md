@@ -1,7 +1,7 @@
-## Panduan Menjalankan Program
+## 🌟 Panduan Menjalankan Program
 
-### Persiapan Awal
-1. Install semua dependensi dengan menjalankan perintah berikut:
+### 🚀 Persiapan Awal
+1. **Install semua dependensi** dengan menjalankan perintah berikut:
    ```bash
    pip install -r requirements.txt
    ```
@@ -13,12 +13,14 @@
    pip install numpy
    ```
 
-2. Jalankan program menggunakan perintah berikut:
+2. **Jalankan program** menggunakan perintah berikut:
    ```bash
    python app.py
    ```
 
-### Mengatasi Error Saat Menjalankan Program
+![Python](https://img.shields.io/badge/python-3.9-blue)
+
+### 🔧 Mengatasi Error Saat Menjalankan Program
 
 #### 1. Pastikan setuptools Terinstal
 Setuptools diperlukan untuk mengelola instalasi paket Python. Pastikan setuptools terinstal atau diperbarui dengan menjalankan perintah berikut:
