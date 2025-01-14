@@ -1,0 +1,60 @@
+/* Styling untuk loading spinner */
+.spinner-container {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Progress bar customization */
+.progress {
+    height: 25px;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+}
+
+.progress-bar {
+    line-height: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Results section styling */
+.results-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.results-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.analysis-chart {
+    padding: 15px;
+}
+
+.model-info {
+    padding: 15px;
+}
+
+/* Form styling */
+.form-group label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .progress-bar {
+        font-size: 0.8rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
