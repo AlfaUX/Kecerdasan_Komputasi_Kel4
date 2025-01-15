@@ -17,6 +17,14 @@
    python app.py
    ```
 
+![Python](https://img.shields.io/badge/python-3.9-blue)
+
+---
+
+<img src="https://via.placeholder.com/400x200?text=Foto+Wawancara" alt="Foto Wawancara" style="width: 400px; height: auto;">
+
+---
+
 ### 🔧 Mengatasi Error Saat Menjalankan Program (module Python pkg_resources not found)
 
 #### 1. Pastikan setuptools Terinstal
@@ -36,22 +44,7 @@ Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `require
 
 ---
 
-
-![Python](https://img.shields.io/badge/python-3.9-blue)
-
----
-
-![Foto Wawancara](
-![1](https://github.com/user-attachments/assets/2243b14f-8099-4f63-96f9-8dc22305b3ca)
-![2](https://github.com/user-attachments/assets/bf60ee32-6cdf-480b-9124-351d76fe06ef)
-![3](https://github.com/user-attachments/assets/1bd165ac-b068-4dbf-95da-72cc4d031357)
-)
-
----
-
-![Hasil Wawancara]
-![WhatsApp Image 2025-01-15 at 17 43 16_dcec0028](https://github.com/user-attachments/assets/13e848dc-6833-4ed8-b42c-3b6b34ea76de)
-
+<img src="https://via.placeholder.com/400x200?text=Hasil+Wawancara" alt="Hasil Wawancara" style="width: 400px; height: auto;">
 
 ---
 
