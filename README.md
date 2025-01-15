@@ -39,7 +39,7 @@ Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `require
 
 <h1>DOKUMENTASI</h1>
 ---
-### FOTO WAWANCARA
+<h2>FOTO WAWANCARA</h2>
 <img src="https://github.com/user-attachments/assets/5cd4c6f3-69ec-45a0-a3d2-925a546218b4" alt="Foto Wawancara" style="width: 400px; height: auto;">
 <img src="https://github.com/user-attachments/assets/ac7515c0-c506-464d-9794-57e13ffaf122" alt="Foto Wawancara" style="width: 400px; height: auto;">
 <img src="https://github.com/user-attachments/assets/ba932612-2bd1-4558-a94e-6702f06d324b" alt="Foto Wawancara" style="width: 400px; height: auto;">
