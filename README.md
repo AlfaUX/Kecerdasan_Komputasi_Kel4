@@ -21,8 +21,7 @@
 
 ---
 
-<img src="![1](https://github.com/user-attachments/assets/5cd4c6f3-69ec-45a0-a3d2-925a546218b4)
-" alt="Foto Wawancara" style="width: 400px; height: auto;">
+<img src="https://github.com/user-attachments/assets/5cd4c6f3-69ec-45a0-a3d2-925a546218b4" alt="Foto Wawancara" style="width: 400px; height: auto;">
 
 ---
 
