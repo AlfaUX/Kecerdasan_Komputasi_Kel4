@@ -50,5 +50,19 @@ Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `require
 ### HASIL WAWANCARA
 <img src="https://github.com/user-attachments/assets/f3d3133f-2889-48cd-9f23-fb8a1048ca7b" alt="Hasil Wawancara" style="width: 400px; height: auto;">
 
+
+### TABEL DATA
+
+| No | Data               | Input               |
+|----|--------------------|---------------------|
+| 1  | Data Siswa         | 139  Siswa          |
+| 2  | Dana Diterima      | Rp. 220.000.000,00  |
+| 3  | Biaya Operasional  | Rp. 40.740.400,00   |
+| 4  | Gaji & Honor       | Rp. 119.515.400,00  |
+| 5  | Alat Pembelajaran  | Rp. 26.255.100,00   |
+| 6  | Perawatan          | Rp. 13.580.900,00   |
+| 7  | Pengembangan       | Rp. 19.927.500,00   |
+
+
 ---
 
