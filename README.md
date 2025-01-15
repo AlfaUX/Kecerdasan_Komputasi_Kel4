@@ -5,7 +5,6 @@
    ```bash
    pip install -r requirements.txt
    ```
-   
    Jika terjadi error, Anda dapat menginstal dependensi secara manual satu per satu:
    ```bash
    pip install Flask
@@ -19,6 +18,12 @@
    ```
 
 ![Python](https://img.shields.io/badge/python-3.9-blue)
+
+---
+
+![Foto Wawancara](https://via.placeholder.com/600x300?text=Foto+Wawancara)
+
+---
 
 ### 🔧 Mengatasi Error Saat Menjalankan Program (module Python pkg_resources not found)
 
@@ -36,4 +41,10 @@ Pastikan pip telah terinstal dan diperbarui ke versi terbaru:
    ```
 
 Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `requirements.txt` telah berhasil terinstal dan kompatibel dengan versi Python yang digunakan.
+
+---
+
+![Hasil Wawancara](https://via.placeholder.com/600x300?text=Hasil+Wawancara)
+
+---
 
