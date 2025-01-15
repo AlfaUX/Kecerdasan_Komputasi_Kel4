@@ -37,7 +37,7 @@ Pastikan pip telah terinstal dan diperbarui ke versi terbaru:
 
 Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `requirements.txt` telah berhasil terinstal dan kompatibel dengan versi Python yang digunakan.
 
-
+<h1>DOKUMENTASI</h1>
 ---
 ### FOTO WAWANCARA
 <img src="https://github.com/user-attachments/assets/5cd4c6f3-69ec-45a0-a3d2-925a546218b4" alt="Foto Wawancara" style="width: 400px; height: auto;">
