@@ -48,7 +48,7 @@ Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `require
 
 ---
 ### HASIL WAWANCARA
-<img src="WhatsApp Image 2025-01-15 at 17 43 16_dcec0028](https://github.com/user-attachments/assets/f3d3133f-2889-48cd-9f23-fb8a1048ca7b" alt="Hasil Wawancara" style="width: 400px; height: auto;">
+<img src="https://github.com/user-attachments/assets/f3d3133f-2889-48cd-9f23-fb8a1048ca7b" alt="Hasil Wawancara" style="width: 400px; height: auto;">
 
 ---
 
