@@ -49,6 +49,37 @@ Jika masalah tetap terjadi, pastikan semua dependensi yang tercantum di `require
 ---
 <h3>HASIL WAWANCARA</h3>
 <img src="https://github.com/user-attachments/assets/f3d3133f-2889-48cd-9f23-fb8a1048ca7b" alt="Hasil Wawancara" style="width: 400px; height: auto;">
+<h6>jawaban hasil wawancara</h6>
+<span>
+   <li>
+      Apakah sekolah ini memiliki dana BOS?
+      Jawaban: Iya.
+   </li>
+   <li>
+      Bagaimana cara Anda menentukan kebutuhan prioritas dalam penggunaan dana BOS?
+      Jawaban: kebutuhan prioritas dana BOS pasti ditujukan ke operasional sekolah.
+   </li>
+   <li>
+      Apakah sekolah memiliki pola/data pengeluaran rutin untuk dana BOS dari tahun ke tahun?
+      Jawaban: Pengeluaran dari dana BOS yaitu untuk gaji honorer Guru dan Tenaga Kerja itu diambil 60% sisanya buat keperluan seperti alat pembelajaran, pengembangan, perawatan, biaya operasional tetapi utamakan dulu prioritas siswa dan sekolah.
+   </li>
+   <li>
+      Apakah ada tantangan dalam menetapkan kebutuhan sekolah dengan anggaran yang tersedia?
+      Jawab: tidak ada karena semua sudah terstruktur, jadi pendapatan Dana BOS itu dihitung dari jumlah siswa.
+   </li>
+   <li>
+      Data apa saja yang biasanya dikumpulkan untuk menentukan anggaran dana BOS?
+      Jawab: Data siswa dan gtk
+   </li>
+   <li>
+      Apakah pernah terjadi alokasi dana yang meleset?
+      Jawab: sejauh ini untuk pengalokasian dana insyaallah aman
+   </li>
+   <li>
+      Bagaimana cara terbaik untuk memanfaatkan anggaran dana BOS benar-benar sesuai dengan kebutuhan siswa dan sekolah?
+      Jawab: Jadi, untuk memanfaatkan dana BOS sebaik mungkin, pertama-tama kami perlu mengadakan rapat semua pihak terkait, seperti kepala sekolah, guru, dan orang tua, buat nge-list kebutuhan yang paling penting. Setelah itu, kami membuat rencana anggaran yang jelas dan sesuai prioritas, jangan sampai dana itu terbuang percuma. Setiap pengeluaran juga harus dicatat dengan jelas biar tidak bingung saat laporan. Jangan lupa, kita perlu rutin ngecek dan evaluasi apakah penggunaan dana sudah sesuai. Utamakan hal-hal yang langsung berpengaruh pada siswa, seperti buku atau alat belajar. Kalau bisa, gunakan teknologi supaya lebih gampang ngatur semuanya. Terakhir, pastikan semua orang tahu dan ikut awasi pengeluarannya. Dengan begitu, dana BOS bisa dipakai dengan tepat dan mendukung pendidikan di sekolah.
+   </li>
+</span>
 
 
 <h3>TABEL DATA</h3>
